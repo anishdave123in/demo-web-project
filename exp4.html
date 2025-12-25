@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Hotel Room Booking Form</title>
+</head>
+<body>
+
+   
+    <h1>Hotel Room Booking Form</h1>
+
+  
+    <form action="#" method="post">
+
+     
+        <label for="fullName">Full Name:</label><br>
+        
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required><br><br>
+
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required><br><br>
+
+       
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="‪+91 9288456315‬" required><br><br>
+
+        
+        <label for="checkIn">Check-in Date:</label><br>
+        
+        <input type="date" id="checkIn" name="checkIn" required><br><br>
+
+        
+        <label for="checkOut">Check-out Date:</label><br>
+        <input type="date" id="checkOut" name="checkOut" required><br><br>
+
+       
+        <label for="roomType">Room Type:</label><br>
+        <select id="roomType" name="roomType" required>
+           
+            <option value="" disabled selected>Select a room type</option>
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="suite">Suite</option>
+        </select><br><br>
+
+       
+        <label for="specialRequests">Special Requests:</label><br>
+       
+        <textarea id="specialRequests" name="specialRequests" rows="4" cols="50" 
+                  placeholder="Any dietary needs, allergies, or other requests..."></textarea><br><br>
+
+      
+        <button type="submit">Book Now</button>
+
+        
+        <button type="reset">Reset Form</button>
+
+    </form>
+
+</body>
+</html>
